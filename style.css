@@ -1,0 +1,34 @@
+html{
+    /* Это изображение отобразиться на всю страницу */
+    background-image: url("11Б.jpg");
+    
+    /* Принудительно указываем высоту равную 100% от высоты окна браузера */
+    min-height:100%;
+
+    /* Магия */
+    background-size:cover;
+}
+
+body{
+    /* Для некоторых мобильных браузеров */
+    min-height:100%;
+}
+p {
+    background: #f3df90; /* Цвет фона под заголовком */
+    color: black; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+    font-size: 155%;
+    border-style:dashed;
+   }
+prozrachen {
+    opacity: 0.1
+}
+h1 {
+    color: #199c9c
+}
+.block1 {
+    font-size: 500%
+}
+header {
+    position: fixed
+}
